@@ -8,16 +8,57 @@
                 <a href="#">SP</a>
             </div>
             <ul class="sidebar-menu">
-                <li class="menu-header">Dashboard</li>
-                <li class=""><a class="nav-link" href="#"><i class="far fa-square"></i>
-                        <span>
+
+                <li class="menu-header text-dark">Aplications</li>
+                <li class="fix-padding">
+                    <a class="nav-link" href="#"><i class="far fa-square"></i>
+                        <span class="text-dark">
                             Dashboard
-                        </span></a>
+                        </span>
+                    </a>
                 </li>
-                <li class="menu-header">Menu Kelola</li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown fix-padding">
                     <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i>
-                        <span>Data Penjualan</span></a>
+                        <span class="text-dark">Master Data</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-link text-dark" href="#">Produk SD</a></li>
+                        <li><a class="nav-link text-dark" href="#">Produk SMP</a></li>
+                    </ul>
+                </li>
+                <li class="fix-padding">
+                    <a class="nav-link" href="#"><i class="far fa-square"></i>
+                        <span class="text-dark">
+                            Pasangan Calon
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown fix-padding">
+                    <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i>
+                        <span class="text-dark">Tim Relawan</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-link text-dark" href="#">Produk SD</a></li>
+                        <li><a class="nav-link text-dark" href="#">Produk SMP</a></li>
+                    </ul>
+                </li>
+                <li class="">
+                    <a class="nav-link fix-padding" href="#"><i class="far fa-square"></i>
+                        <span class="text-dark">
+                            Data DPT
+                        </span>
+                    </a>
+                </li>
+                <li class="">
+                    <a class="nav-link fix-padding" href="#"><i class="far fa-square"></i>
+                        <span class="text-dark">
+                            Data Pemilih
+                        </span>
+                    </a>
+                </li>
+
+                <li class="menu-header">SIPANDA</li>
+                <li class="nav-item dropdown fix-padding">
+                    <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i>
+                        <span>Rekapitulasi</span></a>
                     <ul class="dropdown-menu">
                         <li><a class="nav-link" href="#">Cek Penjualan</a></li>
                         <li><a class="nav-link" href="#">Data Penjualan SD</a></li>
@@ -25,7 +66,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i>
-                        <span>Data Produk</span></a>
+                        <span>Real Count</span></a>
                     <ul class="dropdown-menu">
                         <li><a class="nav-link" href="#">Produk SD</a></li>
                         <li><a class="nav-link" href="#">Produk SMP</a></li>
@@ -33,7 +74,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link has-dropdown"><i class="far fa-file-alt"></i>
-                        <span>Peramalan</span></a>
+                        <span>Survey</span></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a class="nav-link" href="#">
@@ -42,11 +83,29 @@
                         </li>
                     </ul>
                 </li>
+
+                <li class="menu-header text-dark">SMS GATEWAY</li>
+                <li class="fix-padding">
+                    <a class="nav-link" href="#"><i class="far fa-square"></i>
+                        <span class="text-dark">
+                            SMS Broadcast
+                        </span>
+                    </a>
+                </li>
+                <li class="fix-padding">
+                    <a class="nav-link" href="#"><i class="far fa-square"></i>
+                        <span class="text-dark">
+                            Pengaturan SMS
+                        </span>
+                    </a>
+                </li>
+
+                <li class="menu-header text-dark">USER SETTINGS</li>
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link has-dropdown"><i class="fas fa-map-marker-alt"></i>
-                        <span>Kelola User</span></a>
+                        <span>Kelola Profil</span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Daftar User</a></li>
+                        <li><a href="#">Ganti Password</a></li>
                     </ul>
                 </li>
         </aside>

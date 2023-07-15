@@ -18,6 +18,14 @@
     <link rel="stylesheet" href="{{ asset('stisla') }}/assets/css/style.css">
     <link rel="stylesheet" href="{{ asset('stisla') }}/assets/css/components.css">
     <style>
+        .main-sidebar .sidebar-menu li a {
+            height: 40px !important;
+        }
+
+        .main-sidebar .sidebar-menu li.menu-header:not(:first-child) {
+            margin-top: 5px !important;
+        }
+
         .modal-backdrop.show {
             display: none !important;
         }
@@ -86,6 +94,7 @@
     <!-- Template JS File -->
     <script src="{{ asset('stisla') }}/assets/js/scripts.js"></script>
     <script src="{{ asset('stisla') }}/assets/js/custom.js"></script>
+    {{-- <script src="{{ asset('stisla') }}/assets/modules/chart.min.js"></script> --}}
 
     <!-- Page Specific JS File -->
     @stack('js')
