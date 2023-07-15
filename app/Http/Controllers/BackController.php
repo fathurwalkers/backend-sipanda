@@ -15,6 +15,11 @@ use App\Models\{
 
 class BackController extends Controller
 {
+    public function index()
+    {
+        return view('dashboard.index');
+    }
+
     public function login()
     {
         $users = session('data_login');
